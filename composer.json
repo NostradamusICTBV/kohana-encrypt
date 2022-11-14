@@ -1,0 +1,22 @@
+{
+    "name": "kohana/encrypt",
+    "description": "Encrypt library from the kohana core, split off from Koseven to be able to use it in composer",
+    "type": "kohana-module",
+    "keywords": ["kohana", "encyprtoin", "helper", "module", "library"],
+    "homepage": "http://github.com/nostradamus/kohana-encrypt",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-3.4/develop":  "3.4.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
