@@ -11,7 +11,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-3.4/develop":  "3.4.x-dev"
+            "dev-3.4/develop":  "3.4.x-dev",
+            "dev-3.5/develop":  "3.5.x-dev"
         }
     },
     "config": {
